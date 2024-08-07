@@ -6,7 +6,7 @@
 
 .body{
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
-    background-color: rgba(0, 0, 0, 0.884);
+    background: #000;
 }
 /* colour */
 .orange{
@@ -27,6 +27,7 @@
 /* button */
 
 .btn{
+    border: none;
     width: 224px;
     height: 54px;
     font-size: 18px;
@@ -47,9 +48,10 @@
 
 /* header start */
 
-header{
+#header{
     width: 100%;
     height: 700px;
+    background: rgb(33, 32, 32);
 }
     
 
@@ -129,6 +131,7 @@ ul{
 }
 
 .header-content2 img{
+    margin-top: 18px;
     width: 100%;
     height: auto;
 }
@@ -302,10 +305,254 @@ ul{
 }
 
 
-.section3{
-    background: #000;
-    color: aliceblue;
+
+.section4{
+    width: 671px;
+    height: 120px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.section3-container1{
-    background-color: aqua;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section5{
+    
+    width: 100%;
+    height: 487px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    
+    background: rgb(34, 34, 34);
 }
+.section5-container1{
+    margin-left: 150px;
+    width: max-content;
+    height: max-content;
+    border: 2px greenyellow;
+}
+
+
+table{
+    width: 310px;
+    height: 216px;
+    border-collapse: collapse;
+}
+
+
+table , tr , th , td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+}
+table th{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.section5-container2{
+    border: 2px solid red;
+    width: 700px;
+    height: max-content;
+    margin-right: 150px;
+    margin-bottom: -45px;
+}
+#btn2{
+    width: 573px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    margin-bottom: 30px;
+    
+    
+}
+.form input{
+    width: 280px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    
+}
+.section5-container2>p{
+    margin: 20px 0;
+}
+.fa-angle-down{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 20px;
+}
+.section5 h3{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+}
+.section5-container1>h3{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 6 */
+
+.section6-container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+    margin-top: 80px;
+}
+
+
+
+.section6-container2{
+    width: 1050px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    align-content: center;
+    justify-items: center;
+    gap: 15px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 50px auto;
+}
+
+.s6-box1{
+    width: 326px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-image: url('/photos/trainer1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.s6-box2{
+    width: 326px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-image: url('/photos/trainer2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    
+}
+.s6-box3{
+    width: 326px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-image: url('/photos/trainer3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    
+}
+.s6-box4{
+    width: 326px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-image: url('/photos/trainer4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    
+}
+.s6-box5{
+    width: 326px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-image: url('/photos/trainer5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    
+}
+.s6-box6{
+    width: 326px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-image: url('/photos/trainer6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    
+}
+
+
+
+
+
+
