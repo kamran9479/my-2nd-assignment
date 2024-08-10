@@ -1,4 +1,5 @@
 *{
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +8,10 @@
 .body{
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     background: #000;
+}
+
+.text-design{
+    font-family: "Whisper", cursive;
 }
 /* colour */
 .orange{
@@ -21,20 +26,20 @@
 }
 .home{
     background-color: rgb(230, 83, 60);
-    padding: 8px 20px 8px 20px;
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
     border-radius: 45px;
 }
 /* button */
 
 .btn{
     border: none;
-    width: 224px;
-    height: 54px;
-    font-size: 18px;
+    width: 14rem;
+    height: 3.38rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
     background-color: rgb(230, 83, 60);
-    padding: 16px 40px 16px 40px;
+    padding: 1rem 2.5rem 1rem 2.5rem;
     border-radius: 42px;
 }
 
@@ -46,11 +51,13 @@
 
 
 
+
+
 /* header start */
 
 #header{
     width: 100%;
-    height: 700px;
+    height: max-content;
     background: rgb(33, 32, 32);
 }
     
@@ -74,7 +81,7 @@ p{
 }
 
 h1{
-    font-size: 45px;
+    font-size: 2.8em;
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
@@ -108,7 +115,7 @@ ul{
 
 
 .logo-heading{
-    font-size: 35px;
+    font-size: 2.1em;
     font-weight: 800;
 }
 
@@ -117,7 +124,7 @@ ul{
 
 
 .header-heading{
-    font-size: 75px;
+    font-size: 4.3em;
 }
 .header-content1{
     width: 460px;
@@ -133,7 +140,7 @@ ul{
 .header-content2 img{
     margin-top: 18px;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 
@@ -291,18 +298,26 @@ ul{
 
 }
 
-.section2 img{
+/* .section2 img{
     border-radius: 18px;
     width:100%;
     height: auto;
     
-}
+} */
 .running{
     width: 366px;
     height: 312px;
-    border: 1px solid red;    
+    background-image: url('/photos/run\ -\ Copy.jpg');
+    background-size: cover;
+    border-radius: 18px;
+   
+
     
 }
+
+    
+
+
 
 
 
@@ -338,7 +353,7 @@ ul{
     
     width: 100%;
     height: 487px;
-    border: 1px solid red;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -381,7 +396,7 @@ table th{
 
 
 .section5-container2{
-    border: 2px solid red;
+   
     width: 700px;
     height: max-content;
     margin-right: 150px;
@@ -548,11 +563,84 @@ table th{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 18px;
-    
+
 }
 
 
 
 
+
+
+
+footer{
+    height: 489px;
+    
+    
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-box{
+    width: 1050px;
+    height: 245px;
+    display: flex;
+    margin: 0 auto;
+    gap: 150px;
+    
+}
+.footer-container1{
+    margin-top: 50px;
+    width: 443px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+}
+
+
+.footer-container2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+
+}
+
+.footer-container3{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+
+
+}
+.footer-fitness{
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.footer-heading2{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.ul2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* dekstop design end */
 
 
