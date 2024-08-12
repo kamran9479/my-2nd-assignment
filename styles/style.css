@@ -81,7 +81,7 @@ p{
 }
 
 h1{
-    font-size: 2.8em;
+    font-size: 2.8rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
@@ -102,6 +102,9 @@ nav{
     padding-top: 57px;
     
 }
+menu{
+    visibility: hidden;
+}
 ul{
     width: 465px;
     display: flex;
@@ -115,7 +118,7 @@ ul{
 
 
 .logo-heading{
-    font-size: 2.1em;
+    font-size: 2.1rem;
     font-weight: 800;
 }
 
@@ -124,7 +127,7 @@ ul{
 
 
 .header-heading{
-    font-size: 4.3em;
+    font-size: 4.3rem;
 }
 .header-content1{
     width: 460px;
@@ -191,7 +194,7 @@ ul{
     margin-left: 5px;
 }
 .card-font-size{
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 900;
     
 }
@@ -642,5 +645,50 @@ h5{
 
 
 /* dekstop design end */
+
+
+@media screen and (max-width:570px) {
+    /* header */
+
+    
+    ul{
+        display: none;
+    }
+    menu{
+        visibility: visible;
+        color: aliceblue;
+        margin-right: 50px;
+    }
+    
+    nav{
+        margin-left: 10px;
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .fa-bars{
+        color: white;
+    }
+    
+    .header-content{
+        display:flex;
+        flex-direction: column;
+    }
+    .card1{
+        display: none;
+    }
+    .card2{
+        display: none;
+    }
+    .header-content1{
+        margin-left: 10px;
+    }
+    .header-content2{
+        margin-right: 0;
+    }
+    
+}
 
 
