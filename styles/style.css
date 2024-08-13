@@ -55,7 +55,7 @@
 
 /* header start */
 
-#header{
+.header{
     width: 100%;
     height: max-content;
     background: rgb(33, 32, 32);
@@ -130,13 +130,12 @@ ul{
     font-size: 4.3rem;
 }
 .header-content1{
-    width: 460px;
-    height: 440px;
+    width: 28.7rem;
+    height: 27.5rem;
     
     margin-left: 150px;
 }
 .header-content2{
-    
     margin-right: 150px;
 }
 
@@ -234,8 +233,8 @@ ul{
 
 /* section1 */
 .section1{
-    width: 1044px;
-    height: 452px;
+    width: 65.2rem;
+    height: 28.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -297,8 +296,6 @@ ul{
     text-align:start;
     margin-left: 30px;
     gap: 30px;
-    
-
 }
 
 /* .section2 img{
@@ -355,16 +352,15 @@ ul{
 .section5{
     
     width: 100%;
-    height: 487px;
-   
+    height: 36.6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 100px;
-    
     background: rgb(34, 34, 34);
 }
 .section5-container1{
+    
     margin-left: 150px;
     width: max-content;
     height: max-content;
@@ -400,21 +396,13 @@ table th{
 
 .section5-container2{
    
-    width: 700px;
+    width: 43.75rem;
     height: max-content;
-    margin-right: 150px;
-    margin-bottom: -45px;
+    margin: 10px auto;
 }
-#btn2{
-    width: 573px;
-    height: 48px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 12px 40px 12px 20px;
-    margin-bottom: 30px;
+
     
-    
-}
+
 .form input{
     width: 280px;
     height: 48px;
@@ -426,6 +414,17 @@ table th{
     margin-bottom: 8px;
     
 }
+.long-input{
+    width: 35.8rem;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    margin-bottom: 15px;
+}
+.long-input p{
+    font-weight: 100;
+}
 .section5-container2>p{
     margin: 20px 0;
 }
@@ -434,6 +433,13 @@ table th{
     position: absolute;
     margin-left: -40px;
     margin-top: 20px;
+}
+.fa-check{
+    position: absolute;
+    margin-left: 520px;
+    margin-top: -10px;
+    rotate: 160deg;
+    color: rgb(250, 243, 243);
 }
 .section5 h3{
     color: rgb(255, 255, 255);
@@ -649,6 +655,19 @@ h5{
 
 @media screen and (max-width:570px) {
     /* header */
+    *{
+        border: 1px solid red;
+        box-sizing: border-box;
+    }
+    .body{
+        width: 100%;
+        border: 2px dashed green;
+    }
+    .header{
+        width: 100%;
+        background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+        
+    }
 
     
     ul{
@@ -657,37 +676,122 @@ h5{
     menu{
         visibility: visible;
         color: aliceblue;
-        margin-right: 50px;
     }
     
     nav{
-        margin-left: 10px;
-        margin-right: 0;
+        box-sizing: border-box;
+        margin: 40px 40px;
+        padding-top: 0;
+        
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 100%;
+        width: 80%;
+        border: 2px solid rgb(22, 149, 7);
     }
     .fa-bars{
         color: white;
     }
     
     .header-content{
+        
+        width: 90%;
         display:flex;
         flex-direction: column;
     }
     .card1{
         display: none;
+    
+        
+        
     }
     .card2{
         display: none;
+        
     }
     .header-content1{
-        margin-left: 10px;
+        
+        width: 90%;
+        margin-left: 30px;
+        
+        
     }
     .header-content2{
-        margin-right: 0;
+        position:relative;
+        background-color: antiquewhite;
+        width: 90%;
+        margin: 10px 0 10px 40px;
+        
     }
+
+    .section1{
+        margin-top: 10px;
+        width: 90%;
+        height: auto;
+    }
+
+    .section1-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section4{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .section5{
+        
+        max-width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid yellow;
+        gap: 0;
+    }
+    .section5-container1{
+        margin-left: 10px;
+        width: 100%;
+        
+    }
+    .section5-container2{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .form input{
+    width: 150px;
+    height: 48px;
+    }
+
+    .section5-container2 h3{
+        width: 200px;
+    font-size: 16px;
+    font-weight: 900;
+
+    }
+    .section5-container2 p{
+        width: 200px;
+        height: 72px;
+        font-size: 14px;
+
+    }
+
+    .long-input{
+        width: 315px;
+        height: 48px;
+    }
+
     
 }
 
