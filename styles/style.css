@@ -30,8 +30,8 @@
 
 .btn{
     border: none;
-    width: 14rem;
-    height: 3.38rem;
+    width: 14.5rem;
+    height: 3.40rem;
     font-size: 1rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
@@ -691,14 +691,25 @@ h5{
     
     nav{
         box-sizing: border-box;
-        margin: 10px auto;
+        margin: 0 auto;
         padding: 0;
+        padding-top: 30px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 90%;
        
     }
+
+
+
+.btn{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 42px;
+    
+}
     .fa-bars{
     font-size: 25px;
     color: rgb(255, 255, 255);
@@ -711,13 +722,12 @@ h5{
         flex-direction: column;
     }
     .card1{
-        display: none;
     
-        
-        
+        margin-left: 80px ;
     }
     .card2{
-        display: none;
+        margin-left: 300px;
+        
         
     }
     .header-content1{
