@@ -439,13 +439,14 @@ table th{
     margin-left: -40px;
     margin-top: 20px;
 }
+
 .icon2{
-    color: rgb(255, 255, 255);
-    position: absolute;
-    margin-left: 495px;
-    margin-top: -15px;
-    
+    margin-top: 77px;
 }
+
+    
+    
+
 .section5 h3{
     color: rgb(255, 255, 255);
     font-size: 28px;
@@ -498,7 +499,7 @@ table th{
 
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
-    margin: 50px auto;
+    margin: 80px auto;
 }
 
 .s6-box1{
@@ -677,6 +678,7 @@ h5{
         background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
         
     }
+    
 
     
     ul{
@@ -806,8 +808,10 @@ h5{
         
     }
     .icon2{
-        position: absolute;
-        margin-left: 470px;
+        margin-top:78px ;
+        
+    
+        
     }
 
 
