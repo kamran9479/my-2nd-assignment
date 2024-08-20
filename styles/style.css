@@ -317,7 +317,7 @@ ul{
 .running{
     width: 366px;
     height: 312px;
-    background-image: url('../photoss/run2.jpg');
+    background-image: url('..//photoss/run2.jpg');
     background-size: cover;
     border-radius: 18px;
 }
