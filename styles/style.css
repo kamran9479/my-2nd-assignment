@@ -317,7 +317,7 @@ ul{
 .running{
     width: 366px;
     height: 312px;
-    background-image: url('/photoss/run2.jpg');
+    background-image: url('../photoss/run2.jpg');
     background-size: cover;
     border-radius: 18px;
 }
@@ -510,7 +510,7 @@ table th{
     justify-content: end;
     padding-bottom: 20px;
     padding-left: 20px;
-    background-image: url('/photoss/trainer01.png');
+    background-image: url('../photoss/trainer01.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 18px;
@@ -524,7 +524,7 @@ table th{
     justify-content: end;
     padding-bottom: 20px;
     padding-left: 20px;
-    background-image: url('/photoss/trainer02.png');
+    background-image: url('../photoss/trainer02.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 18px;
@@ -539,7 +539,7 @@ table th{
     justify-content: end;
     padding-bottom: 20px;
     padding-left: 20px;
-    background-image: url('/photoss/trainer03.png');
+    background-image: url('../photoss/trainer03.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 18px;
@@ -554,7 +554,7 @@ table th{
     justify-content: end;
     padding-bottom: 20px;
     padding-left: 20px;
-    background-image: url('/photoss/tainer04.png');
+    background-image: url('../photoss/tainer04.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -570,7 +570,7 @@ table th{
     justify-content: end;
     padding-bottom: 20px;
     padding-left: 20px;
-    background-image: url('/photoss/trainer05.png');
+    background-image: url('../photoss/trainer05.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 18px;
@@ -585,7 +585,7 @@ table th{
     justify-content: end;
     padding-bottom: 20px;
     padding-left: 20px;
-    background-image: url('/photoss/trainer06.png');
+    background-image: url('../photoss/trainer06.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 18px;
